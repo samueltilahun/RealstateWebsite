@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    /* top: 30px;
+    left: 30px; */
+    margin: 20px;
+    width: 60%;
+    height: 80%;
+}
+
+.navBar {
+    position: relative;
+    gap: 2rem;
+}
