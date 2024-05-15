@@ -1,20 +1,37 @@
 .container {
+    background-color: var(--white-color-deam);
     position: relative;
     width: 100%;
+    height: 6rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
     position: relative;
-    /* top: 30px;
-    left: 30px; */
     margin: 20px;
-    width: 60%;
-    height: 80%;
+    width: 55%;
+    height: 75%;
 }
 
 .navBar {
     position: relative;
-    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .navLists {
+        .navItem {
+            padding: 1rem;
+            gap: 3rem;
+
+            .navLink {
+                color: var(--text-color);
+
+                &:hover {
+                    color: var(--secondary-color);
+                }
+            }
+        }
+    }
 }

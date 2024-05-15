@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: hsl(199, 100%, 33%);
+    --secondary-color: hsl(187, 85%, 43%);
+    --gradient-color: hsl(187, 86%, 33%);
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(201, 33%, 16%);
+    --text-color: hsl(240, 4%, 36%);
+    --white-color-deam: hsl(0, 0%, 93%);
+    --grey-text: rgb(190, 190, 190);
+    --input-color: rgb(239, 239, 239);
+    --body-color: rgb(240, 240, 246);
+    --card-bg: rgb(225, 225, 235);
+    --shadow: 0 2px 4px rgb(2, 15, 29, 0.984)
+}
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -27,3 +42,6 @@ a {
     text-transform: capitalize;
 }
 
+li {
+    list-style: none;
+}
